@@ -1,12 +1,9 @@
 {
   "cleanUrls": true,
-  "redirects": [{ "source": "/", "destination": "/pulse.html", "permanent": false }],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
-    }
-  ]
+  "redirects": [{ "source": "/", "destination": "/pulse-v2.html", "permanent": false }],
+  "rewrites": [{ "source": "/pulse", "destination": "/pulse-v2.html" }],
+  "headers": [{
+    "source": "/(.*)",
+    "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
+  }]
 }
