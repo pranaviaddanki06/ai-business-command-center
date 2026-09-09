@@ -1,6 +1,5 @@
 {
   "cleanUrls": true,
-  "redirects": [{ "source": "/", "destination": "/executive.html", "permanent": false }],
   "rewrites": [{ "source": "/pulse", "destination": "/pulse-v2.html" }],
   "headers": [{
     "source": "/(.*)",
