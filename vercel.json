@@ -1,7 +1,7 @@
 {
   "cleanUrls": true,
-  "redirects": [{ "source": "/", "destination": "/pulse-final.html", "permanent": false }],
-  "rewrites": [{ "source": "/pulse", "destination": "/pulse-final.html" }],
+  "redirects": [{ "source": "/", "destination": "/pulse-v2.html", "permanent": false }],
+  "rewrites": [{ "source": "/pulse", "destination": "/pulse-v2.html" }],
   "headers": [{
     "source": "/(.*)",
     "headers": [{ "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }]
